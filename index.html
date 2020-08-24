@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="beschrijving van de webpagina">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    
+    <title>Dog Poop</title>
+    
+    <link href="style.css" rel="stylesheet" /> 
+    
+    
+</head>
+    
+
+<body>
+    <div id="container">
+        
+        <!-- TOP INFORMATIE VOOR SPELER -->
+        <div id="score_help">
+            Score: <span id="score">0</span> | Leven: <span id="leven"></span> | Beweeg de muis.
+        </div>
+        <!-- EINDE TOP -->
+        
+        <!-- Tak of graslei -->
+        <!--<div id="gras"></div>-->
+        
+        <!-- HONDEN OP SCHERM ZETTEN -->
+        <div class="hond" id="eersteHond">
+            <img src="Images/hond.png" width="100%" height="100%">
+        </div>
+        
+        <div class="hond" id="tweedeHond">
+            <img src="Images/hond.png" width="100%" height="100%">
+        </div>
+        
+        <div class="hond" id="derdeHond">
+            <img src="Images/hond.png" width="100%" height="100%">
+        </div>
+        
+        <div class="hond" id="vierdeHond">
+            <img src="Images/hond.png" width="100%" height="100%">
+        </div>
+        <!-- EINDE HONDEN -->
+        
+        <!-- DROLLEN OP HET SCHERM ZETTEN -->
+        <div id="eersteDrol" class="drol">
+        <img src="Images/drol.png" width="100%" height="100%">
+        </div>
+        
+        <div id="tweedeDrol" class="drol">
+        <img src="Images/drol.png" width="100%" height="100%">
+        </div>
+        
+        <div id="derdeDrol" class="drol">
+        <img src="Images/drol.png" width="100%" height="100%">
+        </div>
+        
+        <div id="vierdeDrol" class="drol">
+        <img src="Images/drol.png" width="100%" height="100%">
+        </div>
+        <!-- EINDE DROLLEN -->
+        
+        <!-- OPVANGZAK OP SCHERM ZETTEN -->
+        <div id="opvangzak">
+        <img src="Images/opvangzak.png" width="100%" height="100%">
+        </div>
+        <!-- EINDE OPVANGZAK -->
+        
+        <!-- RESTART BUTTON -->
+        <button id="restart">Restart</button>
+        <!-- EINDE RESTART BUTOON -->
+        
+    </div>
+    
+    <script src="jquery.min.js"></script>
+    <script src="collision_detection.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
